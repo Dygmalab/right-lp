@@ -254,6 +254,7 @@ F 0 "P2" H 8078 1441 50  0000 L CNN
 F 1 "CONN_01X01" H 8078 1350 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3mm" H 8000 1400 50  0001 C CNN
 F 3 "" H 8000 1400 50  0000 C CNN
+F 4 "dnp" H 8000 1400 60  0001 C CNN "farnell #"
 	1    8000 1400
 	1    0    0    -1  
 $EndComp
