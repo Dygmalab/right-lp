@@ -291,7 +291,6 @@ Text Label 3800 3050 2    60   ~ 0
 CA8
 Text Label 6700 2000 2    60   ~ 0
 CA8
-NoConn ~ 7800 1400
 $Comp
 L CONN_01X01 P3
 U 1 1 5A3D4C5E
@@ -305,5 +304,26 @@ F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7800 1550
+$Comp
+L Earth #PWR01
+U 1 1 5AD72D43
+P 7800 1400
+F 0 "#PWR01" H 7800 1150 50  0001 C CNN
+F 1 "Earth" H 7800 1250 50  0001 C CNN
+F 2 "" H 7800 1400 50  0001 C CNN
+F 3 "~" H 7800 1400 50  0001 C CNN
+	1    7800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5AD72D82
+P 7800 1550
+F 0 "#PWR02" H 7800 1300 50  0001 C CNN
+F 1 "Earth" H 7800 1400 50  0001 C CNN
+F 2 "" H 7800 1550 50  0001 C CNN
+F 3 "~" H 7800 1550 50  0001 C CNN
+	1    7800 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
