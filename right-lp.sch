@@ -234,7 +234,7 @@ U 1 1 59DB2D04
 P 4750 2100
 F 0 "SW2" H 4750 2355 50  0000 C CNN
 F 1 "kailh hot plug sockets low profile" H 4750 2264 50  0000 C CNN
-F 2 "raise_fp:kailhsocketlowprofile" H 4750 2100 50  0001 C CNN
+F 2 "raise_fp:kailhsocketlowprofile-right-lp" H 4750 2100 50  0001 C CNN
 F 3 "" H 4750 2100 50  0000 C CNN
 F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
 F 5 "CPG135001S30" H 0   0   60  0001 C CNN "supplier PN"
@@ -273,7 +273,7 @@ F 3 "" H 6900 2150 50  0000 C CNN
 F 4 "1302345" H 6900 2150 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6900 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 4050 3450 2    60   ~ 0
 CB4
