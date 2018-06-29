@@ -1,0 +1,7 @@
+s/FCC_header/RIGHT-LP-FCC_header/g
+s/KaihlSocket/RIGHT-LP-KaihlSocket/g
+s/LED_RGB_3528-4RGB/RIGHT-LP-LED_RGB_3528-4RGB/g
+s/Pcb/RIGHT-LP-Pcb/g
+s/sled1735/RIGHT-LP-sled1735/g
+s/USB_C_Daye/RIGHT-LP-USB_C_Daye/g
+s/KaihlSocket_LowProfile/RIGHT-LP-KaihlSocket_LowProfile/g
