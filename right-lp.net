@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/right-lp/right-lp.sch)
-    (date "Thu 21 Jun 2018 11:48:50 CEST")
+    (date "Tue 07 Aug 2018 15:56:55 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,7 +30,7 @@
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
-      (libsource (lib Device) (part D))
+      (libsource (lib right-lp-cache) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 59DB2CFA))
     (comp (ref SW2)
@@ -48,7 +48,7 @@
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
-      (libsource (lib Device) (part D))
+      (libsource (lib right-lp-cache) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 59DB2D0B))
     (comp (ref P1)
@@ -61,7 +61,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 59DB2E70))
     (comp (ref rgb-68)
-      (value "reverse mount 4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name "farnell #") Value)
@@ -73,7 +73,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 59DB3847))
     (comp (ref rgb-67)
-      (value "reverse mount 4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name "farnell #") Value)
@@ -152,9 +152,7 @@
         (pin (num 8) (name P8) (type passive))
         (pin (num 9) (name P9) (type passive))
         (pin (num 10) (name P10) (type passive))))
-    (libpart (lib Device) (part D)
-      (description Diode)
-      (docs ~)
+    (libpart (lib right-lp-cache) (part D)
       (footprints
         (fp TO-???*)
         (fp *SingleDiode)
@@ -187,9 +185,7 @@
         (pin (num 6) (name B-) (type passive)))))
   (libraries
     (library (logical right-lp-cache)
-      (uri /home/matt/work/shortcut/raise-v3.1/right-lp/right-lp-cache.lib))
-    (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib)))
+      (uri /home/matt/work/shortcut/raise-v3.1/right-lp/right-lp-cache.lib)))
   (nets
     (net (code 1) (name Earth)
       (node (ref P3) (pin 1))
