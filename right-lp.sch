@@ -110,10 +110,10 @@ Connection ~ 8600 4050
 Connection ~ 8400 3950
 Connection ~ 8400 3650
 $Comp
-L rgbled rgb-68
+L rgbled rgb-69
 U 1 1 59DB3847
 P 8600 3950
-F 0 "rgb-68" H 8431 4089 60  0000 R CNN
+F 0 "rgb-69" H 8431 4089 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 8431 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8600 3950 60  0001 C CNN
 F 3 "" H 8600 3950 60  0001 C CNN
@@ -126,10 +126,10 @@ F 8 "Value" H 8600 3950 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-67
+L rgbled rgb-68
 U 1 1 59DB384E
 P 8200 3950
-F 0 "rgb-67" H 8031 4089 60  0000 R CNN
+F 0 "rgb-68" H 8031 4089 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 8031 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8200 3950 60  0001 C CNN
 F 3 "" H 8200 3950 60  0001 C CNN
@@ -252,17 +252,6 @@ F 3 "~" H 6700 2000 50  0001 C CNN
 	1    6700 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L Earth #PWR04
-U 1 1 5B1F45CE
-P 6700 2100
-F 0 "#PWR04" H 6700 1850 50  0001 C CNN
-F 1 "Earth" H 6700 1950 50  0001 C CNN
-F 2 "" H 6700 2100 50  0001 C CNN
-F 3 "~" H 6700 2100 50  0001 C CNN
-	1    6700 2100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8400 3650 8400 4350
 Wire Wire Line
@@ -284,4 +273,33 @@ Text Label 4050 4350 2    60   ~ 0
 CB7
 Text Label 4050 4650 2    60   ~ 0
 CB8
+$Comp
+L rgbled rgb-67
+U 1 1 5B96BC8A
+P 6900 3950
+F 0 "rgb-67" H 6731 4089 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 6731 3983 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 6900 3950 60  0001 C CNN
+F 3 "" H 6900 3950 60  0001 C CNN
+F 4 "Value" H 6900 3950 60  0001 C CNN "farnell #"
+F 5 "any/open" H -1050 -1100 60  0001 C CNN "supplier"
+F 6 "Value" H 6900 3950 60  0001 C CNN "supplier PN"
+F 7 "Value" H 6900 3950 60  0001 C CNN "MOQ"
+F 8 "Value" H 6900 3950 60  0001 C CNN "leadtime"
+	1    6900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3150 7100 4250
+Connection ~ 7100 3950
+Wire Wire Line
+	7100 3150 4050 3150
+Connection ~ 7100 3650
+Text Label 4050 3150 2    60   ~ 0
+CB3
+Text Label 6700 2100 2    60   ~ 0
+CB3
+Connection ~ 6900 3450
+Connection ~ 6900 3750
+Connection ~ 6900 4050
 $EndSCHEMATC
