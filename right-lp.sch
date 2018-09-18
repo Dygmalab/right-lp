@@ -157,7 +157,7 @@ U 1 1 59DB706F
 P 8000 1400
 F 0 "P2" H 8078 1441 50  0000 L CNN
 F 1 "CONN_01X01" H 8078 1350 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 8000 1400 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.3mm_Pad" H 8000 1400 50  0001 C CNN
 F 3 "" H 8000 1400 50  0000 C CNN
 F 4 "dnp" H 8000 1400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
@@ -180,33 +180,11 @@ U 1 1 5A3D4C5E
 P 8000 1550
 F 0 "P3" H 8078 1591 50  0000 L CNN
 F 1 "CONN_01X01" H 8078 1500 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 8000 1550 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.3mm_Pad" H 8000 1550 50  0001 C CNN
 F 3 "" H 8000 1550 50  0000 C CNN
 F 4 "dnp" H 8000 1550 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR01
-U 1 1 5AD72D43
-P 7800 1400
-F 0 "#PWR01" H 7800 1150 50  0001 C CNN
-F 1 "Earth" H 7800 1250 50  0001 C CNN
-F 2 "" H 7800 1400 50  0001 C CNN
-F 3 "~" H 7800 1400 50  0001 C CNN
-	1    7800 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR02
-U 1 1 5AD72D82
-P 7800 1550
-F 0 "#PWR02" H 7800 1300 50  0001 C CNN
-F 1 "Earth" H 7800 1400 50  0001 C CNN
-F 2 "" H 7800 1550 50  0001 C CNN
-F 3 "~" H 7800 1550 50  0001 C CNN
-	1    7800 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -302,4 +280,6 @@ CB3
 Connection ~ 6900 3450
 Connection ~ 6900 3750
 Connection ~ 6900 4050
+NoConn ~ 7800 1400
+NoConn ~ 7800 1550
 $EndSCHEMATC
