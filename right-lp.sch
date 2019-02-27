@@ -118,8 +118,8 @@ F 1 "reverse 4 pin RGB led, com anode" H 8431 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8600 3950 60  0001 C CNN
 F 3 "" H 8600 3950 60  0001 C CNN
 F 4 "Value" H 8600 3950 60  0001 C CNN "farnell #"
-F 5 "any/open" H 250 -1100 60  0001 C CNN "supplier"
-F 6 "Value" H 8600 3950 60  0001 C CNN "supplier PN"
+F 5 "Honghua Wei" H 250 -1100 60  0001 C CNN "supplier"
+F 6 "3528-4RGB-1024" H 8600 3950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8600 3950 60  0001 C CNN "MOQ"
 F 8 "Value" H 8600 3950 60  0001 C CNN "leadtime"
 	1    8600 3950
@@ -134,8 +134,8 @@ F 1 "reverse 4 pin RGB led, com anode" H 8031 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8200 3950 60  0001 C CNN
 F 3 "" H 8200 3950 60  0001 C CNN
 F 4 "Value" H 8200 3950 60  0001 C CNN "farnell #"
-F 5 "any/open" H 250 -1100 60  0001 C CNN "supplier"
-F 6 "Value" H 8200 3950 60  0001 C CNN "supplier PN"
+F 5 "Honghua Wei" H 250 -1100 60  0001 C CNN "supplier"
+F 6 "3528-4RGB-1024" H 8200 3950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8200 3950 60  0001 C CNN "MOQ"
 F 8 "Value" H 8200 3950 60  0001 C CNN "leadtime"
 	1    8200 3950
@@ -260,8 +260,8 @@ F 1 "4 pin RGB led, com anode" H 6731 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p" H 6900 3950 60  0001 C CNN
 F 3 "" H 6900 3950 60  0001 C CNN
 F 4 "Value" H 6900 3950 60  0001 C CNN "farnell #"
-F 5 "any/open" H -1050 -1100 60  0001 C CNN "supplier"
-F 6 "Value" H 6900 3950 60  0001 C CNN "supplier PN"
+F 5 "Honghua Wei" H -1050 -1100 60  0001 C CNN "supplier"
+F 6 "3528-4RGB-1026" H 6900 3950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6900 3950 60  0001 C CNN "MOQ"
 F 8 "Value" H 6900 3950 60  0001 C CNN "leadtime"
 	1    6900 3950
