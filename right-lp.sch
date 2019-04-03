@@ -159,7 +159,7 @@ F 0 "P2" H 8078 1441 50  0000 L CNN
 F 1 "CONN_01X01" H 8078 1350 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.3mm_Pad" H 8000 1400 50  0001 C CNN
 F 3 "" H 8000 1400 50  0000 C CNN
-F 4 "dnp" H 8000 1400 60  0001 C CNN "farnell #"
+F 4 "" H 8000 1400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1400
 	1    0    0    -1  
@@ -182,7 +182,7 @@ F 0 "P3" H 8078 1591 50  0000 L CNN
 F 1 "CONN_01X01" H 8078 1500 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.3mm_Pad" H 8000 1550 50  0001 C CNN
 F 3 "" H 8000 1550 50  0000 C CNN
-F 4 "dnp" H 8000 1550 60  0001 C CNN "farnell #"
+F 4 "" H 8000 1550 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1550
 	1    0    0    -1  
@@ -195,7 +195,7 @@ F 0 "P4" H 9228 1441 50  0000 L CNN
 F 1 "CONN_01X01" H 9228 1350 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 9150 1400 50  0001 C CNN
 F 3 "" H 9150 1400 50  0000 C CNN
-F 4 "dnp" H 9150 1400 60  0001 C CNN "farnell #"
+F 4 "" H 9150 1400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1150 0   60  0001 C CNN "supplier"
 	1    9150 1400
 	1    0    0    -1  
@@ -208,7 +208,7 @@ F 0 "P5" H 9228 1591 50  0000 L CNN
 F 1 "CONN_01X01" H 9228 1500 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 9150 1550 50  0001 C CNN
 F 3 "" H 9150 1550 50  0000 C CNN
-F 4 "dnp" H 9150 1550 60  0001 C CNN "farnell #"
+F 4 "" H 9150 1550 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1150 0   60  0001 C CNN "supplier"
 	1    9150 1550
 	1    0    0    -1  
@@ -259,7 +259,7 @@ F 0 "rgb-68" H 6731 4089 60  0000 R CNN
 F 1 "4 pin RGB led, com anode" H 6731 3983 60  0000 R CNN
 F 2 "raise_fp:3528-4p" H 6900 3950 60  0001 C CNN
 F 3 "" H 6900 3950 60  0001 C CNN
-F 4 "Value" H 6900 3950 60  0001 C CNN "farnell #"
+F 4 "" H 6900 3950 60  0001 C CNN "farnell #"
 F 5 "Honghua Wei" H -1050 -1100 60  0001 C CNN "supplier"
 F 6 "3528-4RGB-1026" H 6900 3950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6900 3950 60  0001 C CNN "MOQ"
